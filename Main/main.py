@@ -10,15 +10,20 @@ from Source.Services.my_math_methods import MyMethods
 
 class Main(GetInput):
     def execute_workflow(self):
-        print("Addition:")
-        print(MyMethods.addition(self.a, self.b))
-        print("Substraction:")
-        print(MyMethods.substraction(self.a, self.b))
-        print("a hoch b")
-        print(MyMethods.pows(self.a, self.b))
-        print("Square")
-        print(MyMethods.square(self.a))
-
+        print(self.a)
+        print(self.b)
+        print("Addition")
+        print(MyMethods.add(self.a, self.b))
+        print("Substraktion")
+        print(MyMethods.sub(self.a, self.b))
+        print("multiply")
+        print(MyMethods.multiply(self.const1 ,self.a))
+        print("Norm")
+        print(MyMethods.norm(self.a))
+        print("Skalarprodukt")
+        print(MyMethods.dotp(self.a, self.b))
+        print("Kreuzprodukt")
+        print(MyMethods.crossp(self.a, self.b))
 
 my_code = Main(__file__)
 my_code.execute_workflow()
