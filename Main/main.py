@@ -17,13 +17,14 @@ class Main(GetInput):
         print("Substraktion")
         print(MyMethods.sub(self.a, self.b))
         print("multiply")
-        print(MyMethods.multiply(self.const1 ,self.a))
+        print(MyMethods.multiply(self.const1, self.a))
         print("Norm")
         print(MyMethods.norm(self.a))
         print("Skalarprodukt")
         print(MyMethods.dotp(self.a, self.b))
         print("Kreuzprodukt")
         print(MyMethods.crossp(self.a, self.b))
+
 
 my_code = Main(__file__)
 my_code.execute_workflow()

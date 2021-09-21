@@ -17,7 +17,7 @@ class MyMethods():
     def norm(a):
         result = math.sqrt((a[0] * a[0] + a[1] * a[1] + a[2] * a[2]))
         return result
-    
+
     def dotp(a, b):
         result = (a[0] * b[0] + a[1] * a[1] + b[2] * b[2])
         return result
