@@ -33,6 +33,6 @@ class Main(GetInput):
         # ax.bar3d(self.a[0], self.a[1], self.a[2], 1, 1, 1, color='aqua')
         # plt.show()
 
-  
+
 my_code = Main(__file__)
 my_code.execute_workflow()
