@@ -1,5 +1,8 @@
 import os
 import sys
+from mpl_toolkits import mplot3d
+import numpy as np
+import matplotlib.pyplot as plt
 # find root dir
 root_path = os.path.split((os.path.dirname(__file__)))[0]
 # set root
@@ -25,6 +28,10 @@ class Main(GetInput):
         print("Kreuzprodukt")
         print(MyMethods.crossp(self.a, self.b))
 
-
+        #fig = plt.figure()
+        #ax = plt.axes(projection="3d")
+        #ax.bar3d(self.a[0], self.a[1], self.a[2], 1, 1, 1, color='aqua')
+        #plt.show()
+        
 my_code = Main(__file__)
 my_code.execute_workflow()
