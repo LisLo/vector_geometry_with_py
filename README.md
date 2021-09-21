@@ -8,15 +8,15 @@ math.log(x[, base]), math.sin(x), math.cos(x), math.tan(x), math.pow(x,2), math.
 
 You will alowed to calculate the following:
 
->>> vnorm([3,-3,7])
+vnorm([3,-3,7])
 8.18535277187245
->>> vmultiplikation(-3, [1,2,-3])
+vmultiplikation(-3, [1,2,-3])
 [-3, -6, 9]
->>> vaddition( [1, -3, 2], [2, 3, -5] )
+vaddition( [1, -3, 2], [2, 3, -5] )
 [3, 0, -3]
->>> vdotp( [1, -3, 2], [2, 3, -5])
+vdotp( [1, -3, 2], [2, 3, -5])
 -17
->>> vcrossp( [1, 5, 4], [2, -3, 0] )
+vcrossp( [1, 5, 4], [2, -3, 0] )
 [12, 8, 7]
 
 Please write your vectors in the config.json.
